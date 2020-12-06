@@ -8,7 +8,7 @@ git add <file name that we want to add>
 git commit -m <message for the commit>
 git push origin master
 
-// Now all the changes will go on github main repo
+// Now all the changes will go on github master branch
 
 
 ** Side Notes **
