@@ -1,7 +1,6 @@
 git init
 git remote add origin <clone address>
-git pull origin main
-
+git pull origin master
 // Now at this point all the files from github master repo will be in our folder
 
 git add <file name that we want to add>
