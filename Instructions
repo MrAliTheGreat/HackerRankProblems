@@ -1,0 +1,17 @@
+git init
+git remote add origin <clone address>
+git pull origin main
+
+// Now at this point all the files from github main repo will be in our folder
+
+git add <file name that we want to add>
+git commit -m <message for the commit>
+git push origin master
+
+// Now all the changes will go on github main repo
+
+
+** Side Notes **
+
+rm -rf .git -> removes the generated git file when calling git init
+
