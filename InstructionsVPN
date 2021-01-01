@@ -1,0 +1,48 @@
+There are two ways to connect to hackerrank and github or gitlab which are blocked  from Linux (Ubuntu):
+
+1. 1.1.1.1 DNS using wireguard
+
+Using this link you can find the setup for 1.1.1.1 using a repo included:
+
+https://virgool.io/@marefati110/%D8%AF%D9%88%D8%B1%D8%B2-%D8%B2%D8%AF%D9%86-%D9%81%DB%8C%D9%84%D8%AA%D8%B1%D8%AA%D8%AD%D8%B1%DB%8C%D9%85-%D8%A8%D8%A7-wireguard-%D9%88-cloudflare-yrq2z3mecibf
+
+
+After setup connecting to 1.1.1.1 is possible by the command below in terminal:
+
+sudo wg-quick up wg0
+
+
+Disconnecting is also possible by this command in terminal:
+
+sudo wg-quick down wg0
+
+
+To make sure that you are connected to 1.1.1.1 you can use the link below:
+
+1.1.1.1/help
+
+
+It sometimes take multiple connections and disconnections to finally get it up and running don't worry it'll connect eventually!
+
+ 
+
+2. Windscribe
+
+For ubuntu setup you can use instructions in windscribe.com
+of course the commands need connection to windscribe.com which is blocked so using part 1 above you can first connect to 1.1.1.1 which is not blocked then setup windscribe
+
+
+After setup you can login to windscribe using your username and password by the command below:
+
+windscribe login 
+
+
+For vpn connection you can simply use this command:
+
+windscribe connect
+
+
+You can also get a lot of helpful information by using the command below:
+
+windscribe --help
+
