@@ -52,3 +52,7 @@ no answer
 acbd
 abdc
 fedcbabdc
+
+
+*** In My Approach ***
+Since it says that the characters are in range of a-z so this reminded me of counting sort so i used it but for the times we don't have a limit we can just reverse the list after swapping pivot and successor, because swapping these two will still keep the list in decreasing order and reversing the list will make the order increasing and this gives us the same result as counting sort.
